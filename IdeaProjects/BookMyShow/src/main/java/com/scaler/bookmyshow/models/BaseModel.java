@@ -15,7 +15,7 @@ import java.util.Date;
 //ensures that all the attributes of the BaseModel class is added to the tables
 //of all the child classes
 public class BaseModel {
-    @Id
+    @Id //makes id the primary key attribute for all the child classes of Base Model
     @GeneratedValue(strategy = GenerationType.IDENTITY) //auto-increment
     private Long id;
     private Date createdAt;
