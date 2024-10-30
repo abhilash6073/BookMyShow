@@ -1,8 +1,8 @@
 package com.scaler.bookmyshow.models;
 
 public enum ShowSeatStatus {
-    AVILABLE,
-    NOT_AVILABLE,
+    AVAILABLE,
+    NOT_AVAILABLE,
     BOOKED,
     BLOCKED,
 
